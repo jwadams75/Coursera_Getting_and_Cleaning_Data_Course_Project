@@ -54,7 +54,7 @@ all_data <- rbind(tng_data, test_data)
 #Assign column names
 names(all_data) <- c("subject", "activityID",features[,2])
 
-##2. Extracts only the measurements on the mean and standard devaition for each measurement.##
+##2. Extracts only the measurements on the mean and standard deviation for each measurement.##
 
 #Create a vector to identify the following columns in all_data: subject; activity; and mean and std in their names
 feature_vector <- grep("(subject|activity|mean|std)", colnames(all_data), value = TRUE)
