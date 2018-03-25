@@ -7,6 +7,6 @@ The data set for this project is provided through the Coursera course materials 
 ## Files
 CodeBook.MD: A code book that describes the variables, the data, and any transformations or work performed to clean up the data.
 
-r_analysis.R: Contains the code to complete the five tasks for the project. The file can be run in R by importing the file.
+run_analysis.R: Contains the code to complete the five tasks for the project. The file can be run in R by importing the file.
 
 tidy_data.txt: The output file generated from the fifth step of the project.
