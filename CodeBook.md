@@ -31,9 +31,16 @@ This code book describes the variables, the data, and any transformations or wor
 
 o subject: Each row identifies the subject who performed the activity for each window sample. The range is from 1 to 30.
 
-o activityID: Label ID for each type of activity.
+o activityID: Label ID for each type of activity. The range is from 1 to 6.
 
 o activityName: Name of each type of activity.
+
+  - WALKING: The subject was walking during the test.
+  - WALKING_UPSTAIRS: The subject was walking upstairs during the test.
+  - WALKING_DOWNSTAIRS: The subject was walking downstairs during the test.
+  - SITTING: The subject was sitting during the test.
+  - STANDING: The subject was standing during the test.
+  - LAYING: The subject was laying during the test.
 
 o Time Domain variables:
 
