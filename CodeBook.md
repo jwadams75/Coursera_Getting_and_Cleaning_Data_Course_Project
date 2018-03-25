@@ -25,7 +25,7 @@ This code book describes the variables, the data, and any transformations or wor
    
 5. Create a second, independent tidy data set with the average of each variable for activity and each subject.
 
-   Use the aggregate function to complete this task.
+   Used the aggregate function to complete this task.
    
 ## Variables
 
